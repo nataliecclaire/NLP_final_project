@@ -17,14 +17,14 @@ tests/                 pytest (GPU tests skip automatically without CUDA)
 
 ## Running on Google Colab (T4)
 
-1. Accept the license for `mistralai/Mistral-7B-Instruct-v0.2` on huggingface.co (it is gated).
+1. (Optional) Create a Read token at huggingface.co/settings/tokens. The model is not gated; logging in just makes the ~15 GB download less likely to be rate-limited.
 2. Put this folder in Google Drive, so outputs survive a disconnect. Then in a T4 notebook:
 
 ```python
 from google.colab import drive; drive.mount('/content/drive')
 %cd /content/drive/MyDrive/coms4705-hallucination-gen
 !pip install -q -r requirements.txt
-from huggingface_hub import login; login()        # paste a read token
+from huggingface_hub import login; login()        # optional: paste a Read token
 ```
 
 3. First check (50 TriviaQA train questions), then inspect `outputs/generations/triviaqa_train.jsonl`:

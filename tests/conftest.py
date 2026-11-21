@@ -19,8 +19,8 @@ def tok(cfg):
     from halugen.chat import load_tokenizer
     try:
         return load_tokenizer(cfg)
-    except Exception as e:  # gated repo / no HF token
-        pytest.skip(f"cannot load Mistral tokenizer (HF login + accepted license needed): {e}")
+    except Exception as e:  # e.g. no network
+        pytest.skip(f"cannot load Mistral tokenizer: {e}")
 
 
 def _cuda():
