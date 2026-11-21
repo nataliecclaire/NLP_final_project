@@ -1,0 +1,10 @@
+torch>=2.2
+transformers>=4.44
+accelerate>=0.30
+datasets>=2.20
+jinja2
+pyyaml
+packaging
+tqdm
+pytest
+# optional, for faster sampling (GPU only): pip install vllm

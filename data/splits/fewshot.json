@@ -1,0 +1,20 @@
+[
+ {
+  "id": "triviaqa-tc_1250",
+  "dataset": "triviaqa",
+  "question": "Melanie Molitor is the mom of which tennis world NO 1?",
+  "answer": "Martina Hingis"
+ },
+ {
+  "id": "nq_open-validation-132",
+  "dataset": "nq_open",
+  "question": "how many gold medals did australia win in the 2000 olympics",
+  "answer": "16"
+ },
+ {
+  "id": "web_questions-test-593",
+  "dataset": "web_questions",
+  "question": "what kind of disease does montel williams have?",
+  "answer": "Multiple sclerosis"
+ }
+]

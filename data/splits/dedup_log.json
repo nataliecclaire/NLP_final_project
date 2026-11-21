@@ -1,0 +1,172 @@
+{
+ "popqa": {
+  "pool_size": 14267,
+  "kept": 13059,
+  "removed_within_dataset": 1208,
+  "removed_cross_dataset": 0,
+  "cross_dataset_examples": [],
+  "within_dataset_examples": [
+   {
+    "removed": "popqa-6173288",
+    "question": "What is Will Smith's occupation?",
+    "kept": "popqa-2942698"
+   },
+   {
+    "removed": "popqa-237677",
+    "question": "What genre is Nine Inch Nails?",
+    "kept": "popqa-237675"
+   },
+   {
+    "removed": "popqa-5526254",
+    "question": "What genre is Rain?",
+    "kept": "popqa-5526264"
+   },
+   {
+    "removed": "popqa-2990323",
+    "question": "What genre is The Children?",
+    "kept": "popqa-5986452"
+   },
+   {
+    "removed": "popqa-5739859",
+    "question": "What genre is She?",
+    "kept": "popqa-3980472"
+   },
+   {
+    "removed": "popqa-2084971",
+    "question": "What genre is VS?",
+    "kept": "popqa-6119413"
+   },
+   {
+    "removed": "popqa-985056",
+    "question": "What genre is Pulse?",
+    "kept": "popqa-4171137"
+   },
+   {
+    "removed": "popqa-5958809",
+    "question": "What genre is The Take?",
+    "kept": "popqa-990573"
+   },
+   {
+    "removed": "popqa-83115",
+    "question": "What genre is Everything?",
+    "kept": "popqa-2123002"
+   },
+   {
+    "removed": "popqa-4898727",
+    "question": "What genre is First Love?",
+    "kept": "popqa-1581152"
+   }
+  ],
+  "source_notes": {
+   "source_rows": 14267
+  }
+ },
+ "gsm8k": {
+  "pool_size": 1319,
+  "kept": 1319,
+  "removed_within_dataset": 0,
+  "removed_cross_dataset": 0,
+  "cross_dataset_examples": [],
+  "within_dataset_examples": [],
+  "source_notes": {
+   "source_rows": 1319
+  }
+ },
+ "triviaqa": {
+  "pool_size": 9960,
+  "kept": 9952,
+  "removed_within_dataset": 0,
+  "removed_cross_dataset": 8,
+  "cross_dataset_examples": [
+   {
+    "removed": "triviaqa-qb_92",
+    "question": "What is the capital of Indonesia?",
+    "kept": "popqa-1939901"
+   },
+   {
+    "removed": "triviaqa-qb_4225",
+    "question": "What is the capital of Uzbekistan?",
+    "kept": "popqa-2036135"
+   },
+   {
+    "removed": "triviaqa-qb_5181",
+    "question": "What is the capital of Guyana?",
+    "kept": "popqa-5592430"
+   },
+   {
+    "removed": "triviaqa-bb_8084",
+    "question": "What is the capital of Colombia?",
+    "kept": "popqa-5660051"
+   },
+   {
+    "removed": "triviaqa-qw_1408",
+    "question": "What is the capital of Malta?",
+    "kept": "popqa-1802332"
+   },
+   {
+    "removed": "triviaqa-sfq_9742",
+    "question": "What is the capital of Rwanda?",
+    "kept": "popqa-44382"
+   },
+   {
+    "removed": "triviaqa-odql_3578",
+    "question": "What is the capital of Taiwan?",
+    "kept": "popqa-6333374"
+   },
+   {
+    "removed": "triviaqa-bt_3792",
+    "question": "What is the capital of Venezuela",
+    "kept": "popqa-5421647"
+   }
+  ],
+  "within_dataset_examples": [],
+  "source_notes": {
+   "source_rows": 17944,
+   "collapsed_repeated_question_id_rows": 7984,
+   "ids_with_differing_rows_merged": [
+    "triviaqa-qz_4576",
+    "triviaqa-bb_956"
+   ]
+  }
+ },
+ "nq_open": {
+  "pool_size": 3610,
+  "kept": 3609,
+  "removed_within_dataset": 0,
+  "removed_cross_dataset": 1,
+  "cross_dataset_examples": [
+   {
+    "removed": "nq_open-validation-2267",
+    "question": "what was the name of the horse in steptoe and son",
+    "kept": "triviaqa-sfq_2443"
+   }
+  ],
+  "within_dataset_examples": [],
+  "source_notes": {
+   "source_rows": 3610
+  }
+ },
+ "web_questions": {
+  "pool_size": 2032,
+  "kept": 2030,
+  "removed_within_dataset": 0,
+  "removed_cross_dataset": 2,
+  "cross_dataset_examples": [
+   {
+    "removed": "web_questions-test-273",
+    "question": "when did michael jordan return to the nba?",
+    "kept": "nq_open-validation-650"
+   },
+   {
+    "removed": "web_questions-test-911",
+    "question": "what year did the golden state warriors win their first nba championship?",
+    "kept": "nq_open-validation-1807"
+   }
+  ],
+  "within_dataset_examples": [],
+  "source_notes": {
+   "source_rows": 2032
+  }
+ },
+ "_total_removed": 1219
+}

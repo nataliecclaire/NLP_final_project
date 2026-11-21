@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tmp
+# final outputs/generations/*.jsonl ARE committed (teammates need them); per-phase scratch files are not
+outputs/generations/_partial/

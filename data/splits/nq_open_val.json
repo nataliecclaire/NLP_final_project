@@ -1,0 +1,2363 @@
+{
+ "dataset": "nq_open",
+ "split": "val",
+ "n": 300,
+ "seed": 42,
+ "source": {
+  "hf_id": "google-research-datasets/nq_open",
+  "hf_config": null,
+  "hf_split": "validation",
+  "revision": "5dd9790a83002ad084ddeb7c420dc716852c6f28"
+ },
+ "items": [
+  {
+   "id": "nq_open-validation-3243",
+   "question": "who has the biggest airport in the us",
+   "gold_answers": [
+    "Atlanta"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3017",
+   "question": "when does the new season of law and order svu come on",
+   "gold_answers": [
+    "September 27, 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1423",
+   "question": "who is the lead singer of collective soul",
+   "gold_answers": [
+    "Ed Roland"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2770",
+   "question": "who had won the first grammy award for the best new artist",
+   "gold_answers": [
+    "Chance the Rapper",
+    "Bobby Darin"
+   ]
+  },
+  {
+   "id": "nq_open-validation-544",
+   "question": "real name of daya in taarak mehta ka ooltah chashmah",
+   "gold_answers": [
+    "Disha Vakani"
+   ]
+  },
+  {
+   "id": "nq_open-validation-399",
+   "question": "when did the the regulatory reform (fire safety) order 2005 first come into effect",
+   "gold_answers": [
+    "1 October 2006"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2210",
+   "question": "where did the cosbys live in new york",
+   "gold_answers": [
+    "in Brooklyn",
+    "Brooklyn, New York"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2188",
+   "question": "who played the wicked witch in wicked on broadway",
+   "gold_answers": [
+    "Rachel Kelly Tucker"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2003",
+   "question": "what nba player has scored the most 3 pointers",
+   "gold_answers": [
+    "Ray Allen"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2574",
+   "question": "who cracked the enigma code in world war 2",
+   "gold_answers": [
+    "Turing"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3418",
+   "question": "what is the most common cause of right ventricular heart failure",
+   "gold_answers": [
+    "left-sided heart failure",
+    "pulmonary heart disease"
+   ]
+  },
+  {
+   "id": "nq_open-validation-790",
+   "question": "who was the 19th c. artist who was both painter and graphic designer",
+   "gold_answers": [
+    "René Georges Hermann-Paul"
+   ]
+  },
+  {
+   "id": "nq_open-validation-690",
+   "question": "who is mostly responsible for writing the declaration of independence",
+   "gold_answers": [
+    "Thomas Jefferson"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2167",
+   "question": "when is the next deadpool movie being released",
+   "gold_answers": [
+    "May 18, 2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2171",
+   "question": "who killed missy in a bend in the road",
+   "gold_answers": [
+    "Brian",
+    "Sarah's brother, Brian"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3091",
+   "question": "what is the strongest earthquake in the united states",
+   "gold_answers": [
+    "1964 Alaska earthquake and tsunami",
+    "1700 Cascadia earthquake"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1642",
+   "question": "how much of the world's diamonds does de beers own",
+   "gold_answers": [
+    "33% in 2013"
+   ]
+  },
+  {
+   "id": "nq_open-validation-902",
+   "question": "who wrote the poem for whom the bell tolls",
+   "gold_answers": [
+    "Ernest Hemingway",
+    "John Donne"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1277",
+   "question": "who is the voice of the other mother in coraline",
+   "gold_answers": [
+    "Teri Hatcher"
+   ]
+  },
+  {
+   "id": "nq_open-validation-734",
+   "question": "who plays ivo on once upon a time",
+   "gold_answers": [
+    "Dan Payne"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2518",
+   "question": "who scored fastest 10000 runs in test cricket",
+   "gold_answers": [
+    "Alastair Cook",
+    "Kumar Sangakkara",
+    "Brian Lara",
+    "Sachin Tendulkar"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1584",
+   "question": "where is the majority of phosphorous stored in the environment",
+   "gold_answers": [
+    "minerals",
+    "rocks",
+    "in rocks and minerals"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1126",
+   "question": "what is the poorest county in the state of florida",
+   "gold_answers": [
+    "Union"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2157",
+   "question": "who is the authority or governing body of mca",
+   "gold_answers": [
+    "Indian government"
+   ]
+  },
+  {
+   "id": "nq_open-validation-930",
+   "question": "where does the term jack mormon come from",
+   "gold_answers": [
+    "Jackson County, Missouri"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2368",
+   "question": "how many countries participated for the first time in the 2014 olympic winter games in sochi",
+   "gold_answers": [
+    "Brazil",
+    "Uzbekistan",
+    "Turkey"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1006",
+   "question": "when did the first marvel vs capcom come out",
+   "gold_answers": [
+    "1998",
+    "in 1996",
+    "1996"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1861",
+   "question": "when did scotland last qualify for world cup",
+   "gold_answers": [
+    "1998"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1138",
+   "question": "american horror story freak show girl kidnapped by clown",
+   "gold_answers": [
+    "Bonnie Lipton"
+   ]
+  },
+  {
+   "id": "nq_open-validation-559",
+   "question": "sweet leavened bread prepared for easter in romania",
+   "gold_answers": [
+    "Kozunak",
+    "Cozonac"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3507",
+   "question": "who represents the arizona 9th district in the house",
+   "gold_answers": [
+    "Kyrsten Sinema"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1653",
+   "question": "what's the biggest country in western europe",
+   "gold_answers": [
+    "Russia*",
+    "Russia",
+    "France"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2669",
+   "question": "who won the most stanley cups in history",
+   "gold_answers": [
+    "Montreal Canadiens"
+   ]
+  },
+  {
+   "id": "nq_open-validation-880",
+   "question": "what part of the brain is in the middle cranial fossa",
+   "gold_answers": [
+    "pituitary gland",
+    "the temporal lobes",
+    "the pituitary gland",
+    "temporal lobes"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1736",
+   "question": "where is the largest salt mine in the us",
+   "gold_answers": [
+    "Western New York",
+    "Central New York"
+   ]
+  },
+  {
+   "id": "nq_open-validation-827",
+   "question": "who played cosette in les miserables on broadway",
+   "gold_answers": [
+    "Samantha Hill",
+    "Judy Kuhn",
+    "Ali Ewoldt"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2887",
+   "question": "who sings jungle book i wanna be like you",
+   "gold_answers": [
+    "Louis Prima.",
+    "Louis Prima"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3313",
+   "question": "when did they stop making jello pudding pops",
+   "gold_answers": [
+    "the 90s",
+    "around 2011"
+   ]
+  },
+  {
+   "id": "nq_open-validation-491",
+   "question": "what are the parts of a domain name called",
+   "gold_answers": [
+    "subdomain",
+    "top-level domain",
+    "hostname"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3237",
+   "question": "who is considered to be the greatest english composer of the baroque period",
+   "gold_answers": [
+    "Henry Purcell"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2090",
+   "question": "who was the first executive president of guyana",
+   "gold_answers": [
+    "Arthur Chung",
+    "Forbes Burnham"
+   ]
+  },
+  {
+   "id": "nq_open-validation-835",
+   "question": "who is known as the philippine queen of bossa nova",
+   "gold_answers": [
+    "Sitti Navarro"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1752",
+   "question": "who was the first british team to win the european cup",
+   "gold_answers": [
+    "Celtic"
+   ]
+  },
+  {
+   "id": "nq_open-validation-907",
+   "question": "panic at the disco song about a wedding",
+   "gold_answers": [
+    "I Write Sins Not Tragedies"
+   ]
+  },
+  {
+   "id": "nq_open-validation-705",
+   "question": "the world famous corn belt is in which country",
+   "gold_answers": [
+    "United States",
+    "the United States"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3436",
+   "question": "where does sex and the city take place",
+   "gold_answers": [
+    "New York City"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1374",
+   "question": "dynamin is associated with which type of vesicle",
+   "gold_answers": [
+    "newly formed vesicles"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1381",
+   "question": "who played mrs warboys in one foot in the grave",
+   "gold_answers": [
+    "Doreen Mantle"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1306",
+   "question": "who won mark and goal of the year 2017",
+   "gold_answers": [
+    "Joe Daniher"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2192",
+   "question": "who wrote the guitar solo in beat it",
+   "gold_answers": [
+    "Eddie Van Halen"
+   ]
+  },
+  {
+   "id": "nq_open-validation-684",
+   "question": "who owns the golden nugget casino in atlantic city",
+   "gold_answers": [
+    "Landry's, Inc."
+   ]
+  },
+  {
+   "id": "nq_open-validation-301",
+   "question": "who had created the second bank of the united states",
+   "gold_answers": [
+    "President James Madison",
+    "James Madison"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3561",
+   "question": "what is a home run with a girl",
+   "gold_answers": [
+    "\"full\" sexual intercourse"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1132",
+   "question": "who plays manny in diary of a wimpy kid",
+   "gold_answers": [
+    "Connor and Owen Fielding",
+    "Wyatt and Dylan Walters"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2936",
+   "question": "how many terms can a mayor serve in texas",
+   "gold_answers": [
+    "two four-year terms"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2204",
+   "question": "who has won the most superbowls as a player",
+   "gold_answers": [
+    "Charles Haley",
+    "Neal Dahlen",
+    "Bill Belichick",
+    "Tom Brady"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1840",
+   "question": "an edge that is between a vertex and itself is a",
+   "gold_answers": [
+    "loop"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2119",
+   "question": "where did the legend of the easter bunny come from",
+   "gold_answers": [
+    "German Lutherans"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2437",
+   "question": "who plays the protagonist peter rabbit in the 2018 motion picture release",
+   "gold_answers": [
+    "James Corden"
+   ]
+  },
+  {
+   "id": "nq_open-validation-965",
+   "question": "when did holland become involved in world war 2",
+   "gold_answers": [
+    "15 May 1940",
+    "10 May 1940"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2347",
+   "question": "hart of dixie season 4 how many episodes",
+   "gold_answers": [
+    "10"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3408",
+   "question": "how many students does monarch high school have",
+   "gold_answers": [
+    "2,406"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2290",
+   "question": "the inner sanctuary of the parthenon where the statue of athena is located in known as the",
+   "gold_answers": [
+    "cella",
+    "naos"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1464",
+   "question": "who sings only love can break your heart",
+   "gold_answers": [
+    "Neil Young"
+   ]
+  },
+  {
+   "id": "nq_open-validation-109",
+   "question": "how much money did it cost to make gta v",
+   "gold_answers": [
+    "137"
+   ]
+  },
+  {
+   "id": "nq_open-validation-148",
+   "question": "where did the dewey decimal system come from",
+   "gold_answers": [
+    "Melvil Dewey"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2849",
+   "question": "who dies in transformers revenge of the fallen",
+   "gold_answers": [
+    "Ravage and the Decepticon Rampage",
+    "Jetfire"
+   ]
+  },
+  {
+   "id": "nq_open-validation-815",
+   "question": "when did the 5 day work week begin",
+   "gold_answers": [
+    "1908",
+    "In 1908",
+    "1940"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1339",
+   "question": "when did radio shack change to the source",
+   "gold_answers": [
+    "April 26, 2005",
+    "2005"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3326",
+   "question": "when was the last year thanksgiving was on the 23rd",
+   "gold_answers": [
+    "2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1273",
+   "question": "what is the written dialogue portion of a musical called",
+   "gold_answers": [
+    "script",
+    "libretto"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2075",
+   "question": "how many students attend university of texas at austin",
+   "gold_answers": [
+    "51,331 (Fall 2016)",
+    "over 50,000",
+    "51,331"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1814",
+   "question": "who is the head of parliament in uk",
+   "gold_answers": [
+    "The Lord Fowler",
+    "John Bercow",
+    "Elizabeth II"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2410",
+   "question": "who came up with the first working periodic table",
+   "gold_answers": [
+    "Dmitri Mendeleev"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3216",
+   "question": "when did ireland gain its independence from england",
+   "gold_answers": [
+    "In 1922",
+    "1922"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2466",
+   "question": "where is the new stadium being built in las vegas",
+   "gold_answers": [
+    "Paradise, Nevada",
+    "in Paradise, Nevada"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2727",
+   "question": "which was the first village of karnataka which declared independence",
+   "gold_answers": [
+    "Hyderabad"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2638",
+   "question": "who plays the doc in back to the future",
+   "gold_answers": [
+    "Christopher Allen Lloyd"
+   ]
+  },
+  {
+   "id": "nq_open-validation-614",
+   "question": "who plays the mouse in alice in wonderland",
+   "gold_answers": [
+    "Barbara Windsor"
+   ]
+  },
+  {
+   "id": "nq_open-validation-278",
+   "question": "when did mcgee became a regular on ncis",
+   "gold_answers": [
+    "in season two",
+    "season two"
+   ]
+  },
+  {
+   "id": "nq_open-validation-425",
+   "question": "who did the minnesota vikings lose to in the super bowl",
+   "gold_answers": [
+    "Pittsburgh Steelers",
+    "Oakland Raiders",
+    "Miami Dolphins",
+    "Kansas City Chiefs"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3588",
+   "question": "who decides the number of judges in the high court",
+   "gold_answers": [
+    "the President of India"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2587",
+   "question": "who is considered the father of modern cosmology",
+   "gold_answers": [
+    "Edwin Hubble"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2113",
+   "question": "who negotiated an agreement with japan concerning the future of korea",
+   "gold_answers": [
+    "the Korean Empire",
+    "Empire of Japan",
+    "Taft",
+    "Korean Empire"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3124",
+   "question": "who performed the halftime show at super bowl 51",
+   "gold_answers": [
+    "Lady Gaga"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2561",
+   "question": "where would a subcutaneous injection be made in the skin",
+   "gold_answers": [
+    "the subcutis"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2096",
+   "question": "where's the tv show the crossing filmed",
+   "gold_answers": [
+    "British Columbia, Canada"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2916",
+   "question": "when did beryl markham fly across the atlantic",
+   "gold_answers": [
+    "September 1936",
+    "4 September 1936"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1333",
+   "question": "which state was returned to spain after the revolutionary war",
+   "gold_answers": [
+    "Florida",
+    "Menorca"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2555",
+   "question": "how many times has the saints won the super bowl",
+   "gold_answers": [
+    "1"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1157",
+   "question": "what happens when an air mass is pushed up and over a mountain range",
+   "gold_answers": [
+    "Orographic lift"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1376",
+   "question": "who played tom on as the world turns",
+   "gold_answers": [
+    "Jason Kincaid (1984)",
+    "Jason Kincaid",
+    "C. David Colson",
+    "Peter Galman",
+    "Scott Holmes",
+    "Gregg Marx",
+    "Justin Deas",
+    "others",
+    "Tom Tammi"
+   ]
+  },
+  {
+   "id": "nq_open-validation-76",
+   "question": "who sings she's like the wind lyrics",
+   "gold_answers": [
+    "Wendy Fraser",
+    "Patrick Swayze"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3566",
+   "question": "who was the first elected president of pakistan",
+   "gold_answers": [
+    "Iskander Mirza",
+    "JB Talha Khan"
+   ]
+  },
+  {
+   "id": "nq_open-validation-395",
+   "question": "who was the head of the spanish inquisition",
+   "gold_answers": [
+    "Grand Inquisitor",
+    "Tomás de Torquemada",
+    "Dominican Tomás de Torquemada"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1086",
+   "question": "where was the war of the planet of the apes filmed",
+   "gold_answers": [
+    "the Lower Mainland in Vancouver",
+    "Lower Mainland in Vancouver",
+    "the Kananaskis"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1493",
+   "question": "how many farmers are there in the usa",
+   "gold_answers": [
+    "3.2 million"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1565",
+   "question": "what is the average salary for a us congressman",
+   "gold_answers": [
+    "$174,000"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1288",
+   "question": "when did the flash first appear on arrow",
+   "gold_answers": [
+    "second season"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1058",
+   "question": "what stations in seattle are owned by sinclair",
+   "gold_answers": [
+    "KOMO-TV",
+    "KUNS-TV"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1792",
+   "question": "what type of dog was laika the spacedog",
+   "gold_answers": [
+    "mongrel female"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2383",
+   "question": "who played scotty baldwins father on general hospital",
+   "gold_answers": [
+    "Ross Elliott",
+    "Peter Hansen"
+   ]
+  },
+  {
+   "id": "nq_open-validation-647",
+   "question": "how did the dominican republic get its name",
+   "gold_answers": [
+    "patron saint, Saint Dominic"
+   ]
+  },
+  {
+   "id": "nq_open-validation-22",
+   "question": "how many seasons of vampire diaries r there",
+   "gold_answers": [
+    "eight",
+    "8"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2672",
+   "question": "when does shadowhunters season 2 episode 17 come out",
+   "gold_answers": [
+    "February 13, 2017",
+    "January 23, 2017",
+    "July 24, 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2319",
+   "question": "when does monday night raw come on hulu",
+   "gold_answers": [
+    "the following day"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1974",
+   "question": "who played mary in christmas with the kranks",
+   "gold_answers": [
+    "Felicity Huffman"
+   ]
+  },
+  {
+   "id": "nq_open-validation-206",
+   "question": "when does the miz and maryse show start",
+   "gold_answers": [
+    "2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-227",
+   "question": "when did the word of wisdom become mandatory",
+   "gold_answers": [
+    "February 1834"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2666",
+   "question": "how many cracker barrels in the united states",
+   "gold_answers": [
+    "639",
+    "more than 600"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3341",
+   "question": "who is darrell brother in the walking dead",
+   "gold_answers": [
+    "Merle Dixon"
+   ]
+  },
+  {
+   "id": "nq_open-validation-66",
+   "question": "when did they stop cigarette advertising on television",
+   "gold_answers": [
+    "January 2, 1971",
+    "1970"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1032",
+   "question": "what process causes the continents to drift apart how",
+   "gold_answers": [
+    "Continental drift"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2345",
+   "question": "when did the eagles win the super bowl",
+   "gold_answers": [
+    "2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2844",
+   "question": "where did the titanic sink at what ocean",
+   "gold_answers": [
+    "North Atlantic Ocean"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3342",
+   "question": "which mirror is used in vehicles for rear view",
+   "gold_answers": [
+    "rear-view mirror"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1827",
+   "question": "what type of car is a jeep considered",
+   "gold_answers": [
+    "off-road vehicles",
+    "light utility vehicles",
+    "sport utility vehicles"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2600",
+   "question": "where does the coral sea meet the pacific ocean",
+   "gold_answers": [
+    "in the east",
+    "South Pacific"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2089",
+   "question": "when is dancing on ice on the tv",
+   "gold_answers": [
+    "2019"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1593",
+   "question": "when is the new season of wentworth coming out",
+   "gold_answers": [
+    "19 June 2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2386",
+   "question": "what type of snake is kaa in jungle book",
+   "gold_answers": [
+    "Indian rock python"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1876",
+   "question": "where does the papillary layer of the skin lie",
+   "gold_answers": [
+    "adjacent to the epidermis"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2659",
+   "question": "when does the flash season 4 episode 3 air",
+   "gold_answers": [
+    "October 24, 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1769",
+   "question": "who is ishani in lies of the heart",
+   "gold_answers": [
+    "Siddharth Arora/Vibhav Roy",
+    "Nalini Negi"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2306",
+   "question": "who won the 2018 women's royal rumble match",
+   "gold_answers": [
+    "Asuka"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1247",
+   "question": "who is the first indian climber of mount everest",
+   "gold_answers": [
+    "Bachendri Pal"
+   ]
+  },
+  {
+   "id": "nq_open-validation-885",
+   "question": "where was the movie silver linings playbook filmed",
+   "gold_answers": [
+    "Ridley Park",
+    "Lansdowne",
+    "just outside Philadelphia, Pennsylvania",
+    "Upper Darby"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1885",
+   "question": "what type of tale is the pardoner's tale",
+   "gold_answers": [
+    "a moral tale",
+    "an extended exemplum"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3532",
+   "question": "who plays the coach in old spice commercial",
+   "gold_answers": [
+    "Isaiah Amir Mustafa"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1124",
+   "question": "which term means the study of the nature and causes of disease",
+   "gold_answers": [
+    "pathology"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1845",
+   "question": "who heads the executive department of west virginia government",
+   "gold_answers": [
+    "the Governor of West Virginia",
+    "the governor of West Virginia",
+    "Jim Justice"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3",
+   "question": "when did the eagles win last super bowl",
+   "gold_answers": [
+    "2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3552",
+   "question": "what episode does marnie come back in geordie shore",
+   "gold_answers": [
+    "5"
+   ]
+  },
+  {
+   "id": "nq_open-validation-249",
+   "question": "which country is the last member of saarc",
+   "gold_answers": [
+    "Afghanistan"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1647",
+   "question": "how much square feet is a basketball court",
+   "gold_answers": [
+    "94 by 50 feet"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1983",
+   "question": "who is the ceo of what's up",
+   "gold_answers": [
+    "Jan Koum"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3292",
+   "question": "what dynasty completed the great wall of china",
+   "gold_answers": [
+    "Qin",
+    "Ming dynasty",
+    "Qing"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2356",
+   "question": "the boards name on ed edd and eddy",
+   "gold_answers": [
+    "Plank"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2343",
+   "question": "when was son of a preacher man released",
+   "gold_answers": [
+    "late 1968",
+    "November 8, 1968"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3222",
+   "question": "what does v sign in front of mouth mean",
+   "gold_answers": [
+    "signify cunnilingus",
+    "cunnilingus"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3494",
+   "question": "when was the last time a hurricane hit the uk",
+   "gold_answers": [
+    "the autumn of 2017",
+    "2017",
+    "autumn of 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2200",
+   "question": "who was the guy who died in glee",
+   "gold_answers": [
+    "Cory Allan Michael Monteith"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3365",
+   "question": "when was the last time arsenal win premier league",
+   "gold_answers": [
+    "2003–04"
+   ]
+  },
+  {
+   "id": "nq_open-validation-212",
+   "question": "when did the sims 4 toddlers come out",
+   "gold_answers": [
+    "January 2017",
+    "January 12, 2017",
+    "the January 2017 patch"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3451",
+   "question": "who was the first signatory of the israeli declaration of independence",
+   "gold_answers": [
+    "David Ben-Gurion"
+   ]
+  },
+  {
+   "id": "nq_open-validation-666",
+   "question": "who played in last train from gun hill",
+   "gold_answers": [
+    "Bing Russell",
+    "Earl Holliman",
+    "Val Avery",
+    "Brad Dexter",
+    "Kirk Douglas",
+    "Brian G. Hutton",
+    "Walter Sande",
+    "Carolyn Jones",
+    "Anthony Quinn",
+    "Ziva Rodann"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2619",
+   "question": "where does the karate kid 2010 take place",
+   "gold_answers": [
+    "China",
+    "Beijing",
+    "Beijing, China"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1119",
+   "question": "who holds the record for most everest summits",
+   "gold_answers": [
+    "Kami Rita",
+    "Phurba Tashi Sherpa",
+    "Apa Sherpa",
+    "Phurba Tashi",
+    "Kami Rita Sherpa"
+   ]
+  },
+  {
+   "id": "nq_open-validation-981",
+   "question": "where is dia de los muertos celebrated in mexico",
+   "gold_answers": [
+    "the Central and South regions",
+    "October 31"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2000",
+   "question": "the region that stretches between the black and caspian seas",
+   "gold_answers": [
+    "The Caucasus Mountains",
+    "Caucasus Mountains"
+   ]
+  },
+  {
+   "id": "nq_open-validation-949",
+   "question": "who is the guy that jumped from space",
+   "gold_answers": [
+    "Felix Baumgartner"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2623",
+   "question": "who played young clark kent in 1978 superman",
+   "gold_answers": [
+    "Jeff East"
+   ]
+  },
+  {
+   "id": "nq_open-validation-809",
+   "question": "when were the beatles inducted into the rock and roll hall of fame",
+   "gold_answers": [
+    "1988"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1145",
+   "question": "how many different kinds of pokemon cards are there",
+   "gold_answers": [
+    "eleven"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1373",
+   "question": "when does the new adventure time come out",
+   "gold_answers": [
+    "April 21, 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2995",
+   "question": "what does rt mean on a dodge car",
+   "gold_answers": [
+    "Road/Track"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2573",
+   "question": "where does new crust come from in sea floor spreading",
+   "gold_answers": [
+    "basaltic magma",
+    "volcanic activity"
+   ]
+  },
+  {
+   "id": "nq_open-validation-374",
+   "question": "where was the killing of a sacred deer filmed",
+   "gold_answers": [
+    "Cincinnati"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3259",
+   "question": "when was catch me if you can made",
+   "gold_answers": [
+    "2002"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3496",
+   "question": "who played susanna in legends of the fall",
+   "gold_answers": [
+    "Julia Ormond"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2041",
+   "question": "who played lead guitar on 25 or 6 to 4",
+   "gold_answers": [
+    "Terry Kath"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1963",
+   "question": "when did bihar bifurcate from bengal and some parts of chota nagpur merged into bengal",
+   "gold_answers": [
+    "1912"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1667",
+   "question": "what state did they film daddy's home 2",
+   "gold_answers": [
+    "Great Barrington, Massachusetts",
+    "Framingham, Massachusetts",
+    "Massachusetts",
+    "Concord, Massachusetts"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3184",
+   "question": "who played cory's older brother on boy meets world",
+   "gold_answers": [
+    "Will Friedle"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3044",
+   "question": "what are the main crops grown in the united states",
+   "gold_answers": [
+    "Corn",
+    "Hay, (non-Alfalfa)",
+    "Cotton",
+    "Alfalfa",
+    "Sorghum",
+    "Wheat",
+    "Rice",
+    "Barley",
+    "Soybeans",
+    "Hay",
+    "Tobacco"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2222",
+   "question": "royal society for the protection of birds number of members",
+   "gold_answers": [
+    "more than a million"
+   ]
+  },
+  {
+   "id": "nq_open-validation-367",
+   "question": "when was the last time the military drafted",
+   "gold_answers": [
+    "1973",
+    "1972",
+    "December 1972"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2381",
+   "question": "who plays max voice in a goofy movie",
+   "gold_answers": [
+    "Jason Marsden"
+   ]
+  },
+  {
+   "id": "nq_open-validation-624",
+   "question": "who has the most international goals of all time",
+   "gold_answers": [
+    "Ali Daei"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1325",
+   "question": "where does prime rib come from on a cow",
+   "gold_answers": [
+    "the primal rib"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1402",
+   "question": "where does the grapes of wrath take place",
+   "gold_answers": [
+    "Oklahoma",
+    "California"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3393",
+   "question": "who starred in the film far from the madding crowd",
+   "gold_answers": [
+    "Juno Temple",
+    "Carey Mulligan",
+    "Tom Sturridge",
+    "Matthias Schoenaerts",
+    "Michael Sheen"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1592",
+   "question": "the elements in each period have the same number of",
+   "gold_answers": [
+    "electron shells"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1571",
+   "question": "when does season 3 of the riveras start",
+   "gold_answers": [
+    "March 11, 2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-600",
+   "question": "what us president is the only president to become an eagle scout",
+   "gold_answers": [
+    "Ford"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3133",
+   "question": "where is the tennessee titans football stadium located",
+   "gold_answers": [
+    "Nashville, Tennessee"
+   ]
+  },
+  {
+   "id": "nq_open-validation-287",
+   "question": "when was rosencrantz and guildenstern are dead written",
+   "gold_answers": [
+    "1966"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3041",
+   "question": "when do the walking dead comics come out",
+   "gold_answers": [
+    "October 2003 – present",
+    "2003"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2482",
+   "question": "who was on the first season of dwts",
+   "gold_answers": [
+    "Joey McIntyre",
+    "Evander Holyfield",
+    "John O'Hurley",
+    "Rachel Hunter",
+    "Trista Sutter",
+    "Kelly Monaco"
+   ]
+  },
+  {
+   "id": "nq_open-validation-472",
+   "question": "what's the population of prince edward island",
+   "gold_answers": [
+    "142,907 residents",
+    "142,907"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1107",
+   "question": "when does season 8 of hawaii five o premiere",
+   "gold_answers": [
+    "September 29, 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1099",
+   "question": "who plays addison shepherd on grey's anatomy",
+   "gold_answers": [
+    "Kathleen Erin Walsh"
+   ]
+  },
+  {
+   "id": "nq_open-validation-334",
+   "question": "sri lanka belongs to which part of asia",
+   "gold_answers": [
+    "South Asia"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2440",
+   "question": "when did brent barry won the dunk contest",
+   "gold_answers": [
+    "1996"
+   ]
+  },
+  {
+   "id": "nq_open-validation-674",
+   "question": "who is the actor that plays jt on the young and the restless",
+   "gold_answers": [
+    "Thaddeus Rowe Luckinbill"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3396",
+   "question": "who is the minister of youth in namibia",
+   "gold_answers": [
+    "Erastus Utoni"
+   ]
+  },
+  {
+   "id": "nq_open-validation-365",
+   "question": "who is in charge of ratifying treaties in the us",
+   "gold_answers": [
+    "the Executive branch",
+    "the President",
+    "Senate",
+    "the Senate"
+   ]
+  },
+  {
+   "id": "nq_open-validation-839",
+   "question": "how many goals did mikel score for chelsea",
+   "gold_answers": [
+    "6",
+    "1"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3203",
+   "question": "who voiced mewtwo in pokemon the first movie",
+   "gold_answers": [
+    "Showtaro Morikubo",
+    "Fujiko Takimoto",
+    "Masachika Ichimura",
+    "Philip Bartlett"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2358",
+   "question": "who is responsible for introducing the principle of uniformitarianism",
+   "gold_answers": [
+    "James Hutton",
+    "geologist James Hutton",
+    "William Whewell"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3482",
+   "question": "where does the water come from to fill lake eyre",
+   "gold_answers": [
+    "Warburton River"
+   ]
+  },
+  {
+   "id": "nq_open-validation-648",
+   "question": "who played the mother in the black stallion",
+   "gold_answers": [
+    "Teri Garr"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1154",
+   "question": "who has won the most f1 grand prix",
+   "gold_answers": [
+    "Michael Schumacher"
+   ]
+  },
+  {
+   "id": "nq_open-validation-597",
+   "question": "when did athens emerges as wealthiest greek city state",
+   "gold_answers": [
+    "the late 6th century BCE"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1858",
+   "question": "fast & furious 8 release date in india",
+   "gold_answers": [
+    "April 12, 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1898",
+   "question": "where is the inscription on the statue of liberty",
+   "gold_answers": [
+    "The New Colossus"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3182",
+   "question": "who sings somebody's watching me with michael jackson",
+   "gold_answers": [
+    "Jermaine Jackson",
+    "Rockwell"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2375",
+   "question": "where did zendaya place in dancing with the stars",
+   "gold_answers": [
+    "Runner-up"
+   ]
+  },
+  {
+   "id": "nq_open-validation-787",
+   "question": "where was the original planet of the apes filmed at",
+   "gold_answers": [
+    "Utah",
+    "in northern Arizona",
+    "California",
+    "Arizona"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1900",
+   "question": "what is the top speed of thrust ssc",
+   "gold_answers": [
+    "1,228 km/h"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1694",
+   "question": "how many winnie the pooh books are there",
+   "gold_answers": [
+    "four"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2740",
+   "question": "who sings god is great beer is good",
+   "gold_answers": [
+    "Currington"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2898",
+   "question": "when did hyderabad became a part of india",
+   "gold_answers": [
+    "24 November 1949"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3506",
+   "question": "when was the defensive 3 second rule implemented",
+   "gold_answers": [
+    "the 2001–2002 season",
+    "2001–2002 season"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2344",
+   "question": "who has the most restaurants in the world",
+   "gold_answers": [
+    "SUBWAY"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2154",
+   "question": "who was assassinated during a visit to sarajevo in bosnia",
+   "gold_answers": [
+    "Archduke Franz Ferdinand of Austria"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2932",
+   "question": "when is the new tappan zee bridge going to be finished",
+   "gold_answers": [
+    "by June 15, 2018",
+    "June 15, 2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2980",
+   "question": "points outside the production possibilities curve represent combinations of products that are",
+   "gold_answers": [
+    "unattainable"
+   ]
+  },
+  {
+   "id": "nq_open-validation-290",
+   "question": "how many breeds of pigs are there in the uk",
+   "gold_answers": [
+    "---"
+   ]
+  },
+  {
+   "id": "nq_open-validation-608",
+   "question": "how do you say evil eye in greek",
+   "gold_answers": [
+    "matiasma",
+    "vaskania (βασκανία)"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2246",
+   "question": "who has hit a double century in the ranji trophy for jharkhand in 2016",
+   "gold_answers": [
+    "Jaydev Shah"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1540",
+   "question": "who was the first president of the constituent assembly",
+   "gold_answers": [
+    "Dr. Rajendra Prasad"
+   ]
+  },
+  {
+   "id": "nq_open-validation-569",
+   "question": "what percentage of the population is naturally blonde",
+   "gold_answers": [
+    "2%"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1716",
+   "question": "what is the most current adobe flash player version",
+   "gold_answers": [
+    "28.0.0.137"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2718",
+   "question": "what is the first line of an http request to the server",
+   "gold_answers": [
+    "A request line",
+    "the status line"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1136",
+   "question": "where did they film the game of thrones",
+   "gold_answers": [
+    "Croatia",
+    "Iceland",
+    "Canada",
+    "Spain",
+    "Morocco",
+    "Malta",
+    "Scotland",
+    "United States",
+    "Northern Ireland"
+   ]
+  },
+  {
+   "id": "nq_open-validation-194",
+   "question": "who sings the whiskey ain't workin anymore",
+   "gold_answers": [
+    "Dennis Locorriere",
+    "Marty Stuart",
+    "Travis Tritt",
+    "Tim Passmore",
+    "Travis Tritt and Marty Stuart"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1197",
+   "question": "who is given credit for inventing the aqua lung",
+   "gold_answers": [
+    "Jacques Cousteau",
+    "engineer Émile Gagnan",
+    "Émile Gagnan"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2655",
+   "question": "how did leo dalton die in silent witness",
+   "gold_answers": [
+    "in an explosion"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3435",
+   "question": "who plays sheila carter on the bold and the beautiful",
+   "gold_answers": [
+    "Kimberlin Brown",
+    "Michelle Stafford"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1778",
+   "question": "who won last year's grand national 2017",
+   "gold_answers": [
+    "One For Arthur"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2077",
+   "question": "who were the first non native settlers in the us",
+   "gold_answers": [
+    "European colonization",
+    "West Norse sailors"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3571",
+   "question": "who plays the judge in drop dead diva",
+   "gold_answers": [
+    "Lex Medlin"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2712",
+   "question": "who wrote the song always be humble and kind",
+   "gold_answers": [
+    "Lori McKenna"
+   ]
+  },
+  {
+   "id": "nq_open-validation-181",
+   "question": "where is gall bladder situated in human body",
+   "gold_answers": [
+    "beneath the liver"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2471",
+   "question": "who sang the theme song to step by step",
+   "gold_answers": [
+    "Jesse Frederick James Conaway",
+    "Jesse Frederick"
+   ]
+  },
+  {
+   "id": "nq_open-validation-277",
+   "question": "where is the slide placed on the microscope",
+   "gold_answers": [
+    "stage",
+    "on the microscope's stage"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3064",
+   "question": "what was the population of the roman empire at its height",
+   "gold_answers": [
+    "50 to 90 million inhabitants",
+    "70 million",
+    "55–60 million",
+    "an estimated 70 million people"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3123",
+   "question": "eukaryotes have how many origins of dna replication",
+   "gold_answers": [
+    "up to 100,000"
+   ]
+  },
+  {
+   "id": "nq_open-validation-16",
+   "question": "what is the oath that new citizens take",
+   "gold_answers": [
+    "United States Oath of Allegiance"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1012",
+   "question": "what was going on in the world in 1900",
+   "gold_answers": [
+    "Galveston hurricane",
+    "Boxer Rebellion",
+    "U.S. population exceeds 75 million"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1177",
+   "question": "when did sussex split into east and west",
+   "gold_answers": [
+    "1832",
+    "1889"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1394",
+   "question": "when was how deep is your love released",
+   "gold_answers": [
+    "1977",
+    "September 1977"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3327",
+   "question": "what does the air gap do on a dishwasher",
+   "gold_answers": [
+    "backflow prevention"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2206",
+   "question": "who sings the rap in baby by justin bieber",
+   "gold_answers": [
+    "Ludacris"
+   ]
+  },
+  {
+   "id": "nq_open-validation-837",
+   "question": "when's the last time philly won the superbowl",
+   "gold_answers": [
+    "2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1550",
+   "question": "the first line of http request message is called ____",
+   "gold_answers": [
+    "A request line",
+    "A status line",
+    "the status line",
+    "status line"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1114",
+   "question": "internet based test of english as a foreign language test",
+   "gold_answers": [
+    "TOEFL"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1483",
+   "question": "who want to be a millionaire calls his dad",
+   "gold_answers": [
+    "Carpenter"
+   ]
+  },
+  {
+   "id": "nq_open-validation-484",
+   "question": "is a network connection device that can build tables that identify addresses on each network",
+   "gold_answers": [
+    "routing table",
+    "a router"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1309",
+   "question": "when does the next season of wynonna earp start",
+   "gold_answers": [
+    "2018",
+    "January 15, 2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1943",
+   "question": "when will the flash season 4 episode 17 come out",
+   "gold_answers": [
+    "April 10, 2018",
+    "April 17, 2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-842",
+   "question": "who sang nice day for a white wedding",
+   "gold_answers": [
+    "Billy Idol"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2116",
+   "question": "how many episodes are there in ordeal by innocence",
+   "gold_answers": [
+    "three part",
+    "three"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1148",
+   "question": "who won the 30 man royal rumble match",
+   "gold_answers": [
+    "Shinsuke Nakamura",
+    "Randy Orton"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3053",
+   "question": "when did the battle of bull run start",
+   "gold_answers": [
+    "July 21, 1861",
+    "July 21, 1861",
+    "5:15 a.m."
+   ]
+  },
+  {
+   "id": "nq_open-validation-2985",
+   "question": "a request to the supreme court that it review a case that was already decided is made via a(n)",
+   "gold_answers": [
+    "a writ of certiorari",
+    "writ of certiorari"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1411",
+   "question": "who played joey's agent estelle on friends",
+   "gold_answers": [
+    "June Gable"
+   ]
+  },
+  {
+   "id": "nq_open-validation-553",
+   "question": "who were the bands in pitch perfect 3",
+   "gold_answers": [
+    "Evermoist",
+    "Saddle Up",
+    "the Bellas"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2784",
+   "question": "which hormone is released from the ruptured follicle or corpus luteum",
+   "gold_answers": [
+    "estrogen",
+    "estradiol",
+    "inhibin A",
+    "progesterone"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1364",
+   "question": "who plays zoey in i love you man",
+   "gold_answers": [
+    "Rashida Jones"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2658",
+   "question": "when does panic at the disco album come out",
+   "gold_answers": [
+    "December 15, 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1708",
+   "question": "when was the last time the dodgers went to the world seris",
+   "gold_answers": [
+    "2012"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2974",
+   "question": "where is bigg boss tamil house is located",
+   "gold_answers": [
+    "Chennai"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2010",
+   "question": "who is john snow on game of thrones",
+   "gold_answers": [
+    "Kit Harington"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1172",
+   "question": "where is the love meaning of the song",
+   "gold_answers": [
+    "lament on various worldwide problems"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2506",
+   "question": "when was the last time mount etna exploded",
+   "gold_answers": [
+    "July–October 2012",
+    "16 March 2017"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1025",
+   "question": "when did the us dollar leave the gold standard",
+   "gold_answers": [
+    "October 1976",
+    "August 15, 1971",
+    "1934"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3038",
+   "question": "how many levels are there on the eiffel tower",
+   "gold_answers": [
+    "three"
+   ]
+  },
+  {
+   "id": "nq_open-validation-849",
+   "question": "who sings will you still love me when i'm not young and beautiful",
+   "gold_answers": [
+    "Lana Del Rey"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1060",
+   "question": "how many seasons are in star wars the clone wars",
+   "gold_answers": [
+    "6"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2670",
+   "question": "who starred in the movie the day the earth stood still",
+   "gold_answers": [
+    "Jennifer Connelly",
+    "Jaden Smith",
+    "Kyle Chandler",
+    "Keanu Reeves",
+    "Jon Hamm",
+    "Kathy Bates",
+    "John Cleese"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1359",
+   "question": "where does the last name cintron come from",
+   "gold_answers": [
+    "Portuguese",
+    "Spanish-French"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3386",
+   "question": "cast of a nightmare on elm street 1984",
+   "gold_answers": [
+    "Heather Langenkamp",
+    "Ronee Blakley",
+    "Nick Corri",
+    "Johnny Depp",
+    "John Saxon",
+    "Robert Englund",
+    "Amanda Wyss"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1118",
+   "question": "how many players on the line of scrimmage in american football",
+   "gold_answers": [
+    "at least seven players",
+    "at least seven",
+    "seven"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3395",
+   "question": "who won the mens figure skating in 2018 olympics",
+   "gold_answers": [
+    "Yuzuru Hanyu",
+    "Javier Fernández",
+    "Shoma Uno"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1448",
+   "question": "mention the chemical change that proinsulin undergo to be able to act as mature insulin",
+   "gold_answers": [
+    "post translational modification"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1465",
+   "question": "who sings ive loved you for a thousand years",
+   "gold_answers": [
+    "Christina Perri"
+   ]
+  },
+  {
+   "id": "nq_open-validation-529",
+   "question": "who overthrew the mongols and established the ming dynasty",
+   "gold_answers": [
+    "Zhu Yuanzhang"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3246",
+   "question": "who wrote the song after you've gone",
+   "gold_answers": [
+    "Turner Layton",
+    "Henry Creamer",
+    "lyrics by Henry Creamer",
+    "composed by Turner Layton"
+   ]
+  },
+  {
+   "id": "nq_open-validation-68",
+   "question": "points on a sphere or angles in a circle are measured in units called",
+   "gold_answers": [
+    "radians"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2840",
+   "question": "when did the us stop trading with japan",
+   "gold_answers": [
+    "1939",
+    "1940"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2502",
+   "question": "which president of the united states was a boy scout",
+   "gold_answers": [
+    "Gerald Ford",
+    "President Gerald Ford"
+   ]
+  },
+  {
+   "id": "nq_open-validation-616",
+   "question": "which songs did liam write as you were",
+   "gold_answers": [
+    "I've All I Need",
+    "For What It's Worth",
+    "When I'm in Need",
+    "You Better Run",
+    "Bold",
+    "Greedy Soul",
+    "I Get By",
+    "Wall of Glass",
+    "Universal Gleam",
+    "Come Back to Me"
+   ]
+  },
+  {
+   "id": "nq_open-validation-539",
+   "question": "under the federal unemployment tax act which party pays unemployment taxes",
+   "gold_answers": [
+    "Employers",
+    "the employer"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3459",
+   "question": "who told the story of the prodigal son",
+   "gold_answers": [
+    "Jesus Christ"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3381",
+   "question": "who acts as the chairman of the election commission",
+   "gold_answers": [
+    "The Chief Election Commissioner",
+    "Achal Kumar Jyoti",
+    "Chief Election Commissioner"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2950",
+   "question": "what is the name of india 29 state",
+   "gold_answers": [
+    "Rajasthan"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1978",
+   "question": "where is the eagle creek fire located in oregon",
+   "gold_answers": [
+    "Cascade Locks",
+    "Columbia River Gorge"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1042",
+   "question": "who wrote the song mary had a little lamb",
+   "gold_answers": [
+    "John Roulstone",
+    "Sarah Josepha Hale"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1212",
+   "question": "when does mexico play in the winter olympics",
+   "gold_answers": [
+    "9 to 25 February 2018"
+   ]
+  },
+  {
+   "id": "nq_open-validation-628",
+   "question": "how many pennsylvania house of representatives are there",
+   "gold_answers": [
+    "203",
+    "203 members"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1615",
+   "question": "when does the team find out prentiss is alive",
+   "gold_answers": [
+    "In the season seven premiere",
+    "the season seven premiere"
+   ]
+  },
+  {
+   "id": "nq_open-validation-371",
+   "question": "most of new zealands land supports which economic activity",
+   "gold_answers": [
+    "agriculture",
+    "Pastoral farming"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1938",
+   "question": "who plays voldemort in harry potter and the philosopher's stone",
+   "gold_answers": [
+    "Richard Bremmer",
+    "Ian Hart"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3606",
+   "question": "what college does everyone in gossip girl go to",
+   "gold_answers": [
+    "New York University",
+    "Columbia University"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1611",
+   "question": "how many senators are there in the us senate",
+   "gold_answers": [
+    "100",
+    "100 members"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1970",
+   "question": "where does the brazos river start and stop",
+   "gold_answers": [
+    "Gulf of Mexico",
+    "Llano Estacado"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3527",
+   "question": "how many episodes in season 2 of fargo",
+   "gold_answers": [
+    "10",
+    "ten"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2049",
+   "question": "what is cain and abel software used for",
+   "gold_answers": [
+    "password recovery"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2918",
+   "question": "how many numbers are in the euromillions draw",
+   "gold_answers": [
+    "7"
+   ]
+  },
+  {
+   "id": "nq_open-validation-739",
+   "question": "last world series that didn't go 7 games",
+   "gold_answers": [
+    "2015"
+   ]
+  },
+  {
+   "id": "nq_open-validation-707",
+   "question": "who was the first territorial governor of oklahoma",
+   "gold_answers": [
+    "George Washington Steele"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2161",
+   "question": "who's playing in the world series and when is it",
+   "gold_answers": [
+    "Houston Astros",
+    "Los Angeles Dodgers",
+    "October 24 – November 1"
+   ]
+  },
+  {
+   "id": "nq_open-validation-3594",
+   "question": "what makes a mini bike a mini bike",
+   "gold_answers": [
+    "a miniature motorcycle"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2317",
+   "question": "when did the first immigrants come to hawaii",
+   "gold_answers": [
+    "Around 1200"
+   ]
+  },
+  {
+   "id": "nq_open-validation-420",
+   "question": "who played the twins in darling buds of may",
+   "gold_answers": [
+    "Christina Giles",
+    "Katherine Giles"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1581",
+   "question": "what is the meaning of lord shiva lingam",
+   "gold_answers": [
+    "reminds of the Omnipotent Lord"
+   ]
+  },
+  {
+   "id": "nq_open-validation-1734",
+   "question": "who plays ser davos in game of thrones",
+   "gold_answers": [
+    "Liam Cunningham"
+   ]
+  },
+  {
+   "id": "nq_open-validation-2423",
+   "question": "who played buffy the vampire slayer in the movie",
+   "gold_answers": [
+    "Kristy Swanson"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+# Single source of truth for every setting in the generation stage.
+# Do not change seed / split sizes / decoding settings without team agreement:
+# the splits and outputs are a contract with the labeling and probing stages.
+
+seed: 42
+
+model:
+  name: mistralai/Mistral-7B-Instruct-v0.2
+  revision: 63a8b081895390a26e140280378bc85ec8bce07a   # pinned: Mistral has changed this repo's chat template before
+  dtype: float16          # T4 (Colab) has no bfloat16 support
+  attn_implementation: sdpa
+
+paths:
+  splits_dir: data/splits
+  generations_dir: outputs/generations        # final {dataset}_{split}.jsonl
+  partial_dir: outputs/generations/_partial   # per-phase resumable files
+
+# task: factual -> few-shot short-answer prompt; math -> step-by-step prompt
+# role: train_source -> split into train/val; test_set -> held-out test split
+datasets:
+  triviaqa:
+    hf_id: mandarjoshi/trivia_qa
+    hf_config: rc.nocontext
+    hf_split: validation
+    revision: 0f7faf33a3908546c6fd5b73a660e0f8ff173c2f
+    task: factual
+    role: train_source
+  nq_open:
+    hf_id: google-research-datasets/nq_open
+    hf_config: null
+    hf_split: validation
+    revision: 5dd9790a83002ad084ddeb7c420dc716852c6f28
+    task: factual
+    role: train_source
+  web_questions:
+    hf_id: stanfordnlp/web_questions
+    hf_config: null
+    hf_split: test
+    revision: 0e473cbe21d1e91ec18da343644498be6a3f5454
+    task: factual
+    role: train_source
+  popqa:
+    hf_id: akariasai/PopQA
+    hf_config: null
+    hf_split: test
+    revision: 098765c79ea10a2cb19c828324e33281b8336ec0
+    task: factual
+    role: test_set
+  gsm8k:
+    hf_id: openai/gsm8k
+    hf_config: main
+    hf_split: test
+    revision: 740312add88f781978c0658806c59bc2815b9866
+    task: math
+    role: test_set
+
+splits:
+  train_source: {n_train: 1200, n_val: 300}
+  test_set: {n_test: 500}
+  # When a (normalized) question appears in several datasets, the earliest
+  # dataset in this list keeps it. Held-out test sets come first so nothing
+  # leaks from test into training.
+  dedup_priority: [popqa, gsm8k, triviaqa, nq_open, web_questions]
+
+fewshot:
+  # One example per training source, drawn from the training side of its pool
+  # and removed from every split. The chosen examples are written verbatim
+  # into prompts.py (and data/splits/fewshot.json); a check enforces they match.
+  per_source: 1
+  max_question_words: 20
+  max_answer_words: 3
+  # Candidates skipped by hand (they stay eligible for the normal splits):
+  exclude_ids:
+    - nq_open-validation-1595   # "who won latest america's next top model" - answer depends on date
+    - nq_open-validation-3135   # "who is directly elected according to the constitution" - ambiguous
+
+generation:
+  max_new_tokens: {factual: 48, math: 384}
+  greedy:
+    backend: hf            # always HF transformers, batch size 1 (no padding effects)
+  sampling:
+    backend: auto          # auto = vllm if importable, else hf
+    n: 10
+    temperature: 1.0
+    top_p: 1.0
+    top_k: null            # null = disabled (pure temperature sampling) in both backends
+    hf_chunk_size: 5       # HF fallback: samples generated per forward batch (T4 memory)
+  vllm:
+    # fp16 weights are ~13.5 GiB of a T4's ~15 GiB; little is left for the KV cache.
+    gpu_memory_utilization: 0.95
+    max_model_len: 1024    # longest sequence: ~250-token GSM8K prompt + 384 new tokens
+    enforce_eager: true    # skip CUDA graphs to save memory on a 16 GB T4
+    batch_questions: 32    # questions submitted per vLLM call (= resume granularity)
