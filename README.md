@@ -51,6 +51,9 @@ Useful flags: `--phase greedy|sample|merge|all`, `--dataset <name>|all`, `--spli
 - **Resumability**: each phase appends one fsynced line per question. A line cut off by a preemption
   is dropped on restart. Each question's sampling seed comes from (seed, id), so resumed samples
   match those from an uninterrupted run. If settings change between runs, resuming is refused.
+  On Colab's Drive mount, a file only reaches Drive once it is closed, so the writers also close and
+  reopen their file every 60 s. Use the cell's stop button rather than Disconnect, and run
+  `drive.flush_and_unmount()` (last notebook cell) before ending a session.
 - **Dedup**: questions are normalized (lowercase, no punctuation, collapsed whitespace) and deduplicated
   within and across datasets before sampling. Held-out sets keep shared questions. See
   `data/splits/dedup_log.json`.

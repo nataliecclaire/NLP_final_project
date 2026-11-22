@@ -39,8 +39,11 @@ def load_model(cfg: dict, device: str | None = None):
 
 
 def _gen_config(tokenizer, max_new_tokens: int, **kw) -> GenerationConfig:
+    # return_dict_in_generate/output_logits live in the config: passing them alongside a
+    # generation_config is deprecated in recent transformers.
     return GenerationConfig(max_new_tokens=max_new_tokens, eos_token_id=tokenizer.eos_token_id,
-                            pad_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id, **kw)
+                            pad_token_id=tokenizer.eos_token_id, bos_token_id=tokenizer.bos_token_id,
+                            return_dict_in_generate=True, output_logits=True, **kw)
 
 
 @torch.inference_mode()
@@ -48,8 +51,7 @@ def greedy(model, tokenizer, prompt_ids: list[int], max_new_tokens: int) -> dict
     """Batch size 1, no padding. Response IDs include the final </s> if the model emitted it."""
     inp = torch.tensor([prompt_ids], device=model.device)
     out = model.generate(inp, attention_mask=torch.ones_like(inp),
-                         generation_config=_gen_config(tokenizer, max_new_tokens, do_sample=False),
-                         return_dict_in_generate=True, output_logits=True)
+                         generation_config=_gen_config(tokenizer, max_new_tokens, do_sample=False))
     gen = out.sequences[0, len(prompt_ids):]
     logits = torch.stack(out.logits, 0)[:, 0, :].float()  # (T, V)
     assert logits.shape[0] == gen.shape[0]
@@ -87,8 +89,7 @@ def sample(model, tokenizer, prompt_ids: list[int], max_new_tokens: int, n: int,
         gc = _gen_config(tokenizer, max_new_tokens, do_sample=True, temperature=temperature, top_p=top_p,
                          top_k=0 if top_k is None else top_k,  # 0 disables HF's default top_k=50
                          num_return_sequences=k)
-        out = model.generate(inp, attention_mask=torch.ones_like(inp), generation_config=gc,
-                             return_dict_in_generate=True, output_logits=True)
+        out = model.generate(inp, attention_mask=torch.ones_like(inp), generation_config=gc)
         seqs = out.sequences[:, len(prompt_ids):]
         total = torch.zeros(k, device=seqs.device, dtype=torch.float64)
         alive = torch.ones(k, dtype=torch.bool, device=seqs.device)

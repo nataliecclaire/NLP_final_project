@@ -86,8 +86,9 @@ generation:
     top_k: null            # null = disabled (pure temperature sampling) in both backends
     hf_chunk_size: 5       # HF fallback: samples generated per forward batch (T4 memory)
   vllm:
-    # fp16 weights are ~13.5 GiB of a T4's ~15 GiB; little is left for the KV cache.
-    gpu_memory_utilization: 0.95
+    # Tuned for an L4 (24 GB) / A100. On a 16 GB T4, use 0.95 and enforce_eager: true.
+    # These only affect speed and memory, not what is generated.
+    gpu_memory_utilization: 0.90
     max_model_len: 1024    # longest sequence: ~250-token GSM8K prompt + 384 new tokens
-    enforce_eager: true    # skip CUDA graphs to save memory on a 16 GB T4
+    enforce_eager: false   # CUDA graphs on (faster)
     batch_questions: 32    # questions submitted per vLLM call (= resume granularity)
